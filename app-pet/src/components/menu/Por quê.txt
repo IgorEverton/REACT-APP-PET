@@ -1,0 +1,2 @@
+Esse componente foi criado para melhorar a navegação do nosso app pet React. Foi criado rotas dentro do Brownser
+possibilitando o usuário carregar outras páginas
