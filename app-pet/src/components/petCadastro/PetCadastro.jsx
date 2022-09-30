@@ -3,7 +3,7 @@ import React from "react";
 export default function PetCadastro(){
     return(
         <div>
-        <form method="post" onSubmit={props.addTarefa}>
+        <form method="post">
             <div>
                 <label>Nome do seu Pet</label>
                 <input type="text" name="nomePet" value/>
