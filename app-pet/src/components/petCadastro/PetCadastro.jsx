@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function PetCadastro(){
+export default function PetCadastro(props){
     return(
         <div>
-        <form method="post">
+        <form method="post" onSubmit={props.addPets}>
             <div>
                 <label>Nome do seu Pet</label>
                 <input type="text" name="nomePet" value/>

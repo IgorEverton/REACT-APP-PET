@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
+import ListaPets from '../listaPets/ListaPets';
 
 export default function Pets(){
     
-    const [pets, setPets] = useState ([
-        {"nome":"", "idade": "", "raca": "", "tamanho": "", "nomeDono": "", "telDono": "", "img": "", "obs": ""}
-    ])
-
+    
     
     return(
-        <div>
+        <ListaPets>
             <h1>Pets Cadastrados</h1>
-        </div>
+            
+        
+        </ListaPets>
+       
     )
 }
