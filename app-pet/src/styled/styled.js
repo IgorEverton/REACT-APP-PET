@@ -1,3 +1,6 @@
+import styled from 'styled-components';
+
+export const Header = styled.header`
 h2{
     color: #EE7E00;
     text-shadow: 3px 2px 2px rgb(26, 26, 26);
@@ -24,3 +27,4 @@ ul li a:hover{
     color: #EE7E00;
     transform: scale(1.2);
 }
+`

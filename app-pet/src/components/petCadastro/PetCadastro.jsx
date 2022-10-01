@@ -34,7 +34,7 @@ export default function PetCadastro(props){
             </div>
             <div>
                 <label>Oberservações</label>
-                <textarea name="obs" cols="30" rows="10" value={} onChange={}></textarea>
+                <textarea name="obs" cols="30" rows="10"></textarea>
             </div>
             <div>
                 <button type="submit">Adicionar</button>

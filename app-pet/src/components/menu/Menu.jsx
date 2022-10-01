@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
-import './Menu.css'
+import { Header } from "../../styled/styled"
 
 export default function Menu(){
     return(
-        <header>
+        <Header>
             <h2>App Pet</h2>
             
             <nav>
@@ -12,6 +12,6 @@ export default function Menu(){
                     <li><Link to="/petsCadastrados">Meus Pets</Link></li>
                 </ul>
             </nav>
-        </header>
+        </Header>
     )
 }
