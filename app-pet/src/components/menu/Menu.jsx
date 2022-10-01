@@ -8,7 +8,7 @@ export default function Menu(){
             
             <nav>
                 <ul>
-                    <li><Link to="/">Cadastrar Pet</Link></li>
+                    <li><Link to="/">Cadastrar Pet</Link></li> |
                     <li><Link to="/petsCadastrados">Meus Pets</Link></li>
                 </ul>
             </nav>
