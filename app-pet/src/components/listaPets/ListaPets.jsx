@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import Pets from "../pets/Pets";
 
 export default function ListaPets(){
