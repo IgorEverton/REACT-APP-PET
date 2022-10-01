@@ -15,7 +15,7 @@ nav{
     margin: auto;
     color: #EE7E00;
     font-weight: bold;
-    box-shadow: 3px 2px 2px rgb(116, 113, 113)
+    box-shadow: 3px 2px 2px rgb(116, 113, 113);
 }
 ul{
     list-style: none;
@@ -39,5 +39,59 @@ ul li a:hover{
     color: #EE7E00;
     transform: scale(1.2);
     text-decoration: underline;
+}
+`
+
+export const DivCadastro = styled.div`
+.principal {
+    width: 50%;
+    margin: 30px auto auto auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:70%;
+}
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+label {
+    color: #ee7f00da;
+    padding: 10px 0px 10px 0px;
+}
+label:hover{
+    color: #EE7E00;
+    text-decoration: underline;
+}
+input, textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px 10px 15px;
+    align-items: right;
+    box-shadow: 3px 2px 2px rgb(116, 113, 113);
+}
+input:hover,
+textarea:hover {
+    border: solid 1px #EE7E00;
+}
+button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #378544;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover {
+    transition: 1ms;
+    background-color: #454749   ;
 }
 `
