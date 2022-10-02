@@ -95,3 +95,26 @@ button:hover {
     background-color: #454749   ;
 }
 `
+
+export const DivPet =styled.div`
+img{
+    border-radius:50%;
+    height:100px;
+
+}
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+background-Color:white;
+color:yellow;
+padding:10px;
+widht:200px;
+
+box-shadow:2px 2px 10px rgba(0,0,0,0.7);
+margin:30px;
+
+
+
+`

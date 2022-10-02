@@ -1,30 +1,10 @@
 import React, { useState } from 'react';
 
-import styled from 'styled-components';
 
+import { DivPet } from "../../styled/styled";
 export default function Pets(props){
     
-    const DivPet =styled.div`
-    img{
-        border-radius:50%;
-        height:100px;
 
-    }
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-
-    background-Color:white;
-    color:yellow;
-    padding:10px;
-    box-shadow:2px 2px 10px rgba(0,0,0,0.7);
-    margin:30px;
-    
-   
-
-    `
-    
     
     return(
         <DivPet>
