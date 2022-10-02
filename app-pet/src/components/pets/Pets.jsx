@@ -7,7 +7,7 @@ export default function Pets(){
     
     return(
         <ListaPets>
-            <h1>Pets Cadastrados</h1>
+         
             
         
         </ListaPets>
